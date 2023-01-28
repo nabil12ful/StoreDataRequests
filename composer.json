@@ -2,6 +2,7 @@
     "name": "nabil/store-data-requests",
     "description": "A store data requests from package for laravel",
     "type": "library",
+    "minimum-stability": "stable",
     "require": {
         "php": "^8.0"
     },
