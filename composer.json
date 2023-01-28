@@ -20,5 +20,15 @@
             "name": "Nabil Hamada",
             "email": "nabilhamada421@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nabil\\StoreDataRequests"
+            ],
+            "aliases": {
+                "Debugbar": "Nabil\\StoreDataRequests\\Facade"
+            }
+        }
+    },
 }
