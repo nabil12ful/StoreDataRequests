@@ -1,0 +1,24 @@
+{
+    "name": "nabil/store-data-requests",
+    "description": "A store data requests from package for laravel",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "stubs"
+        ],
+        "psr-4": {
+            "Nabil\\StoreDataRequests\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nabil Hamada",
+            "email": "nabilhamada421@gmail.com"
+        }
+    ]
+}
